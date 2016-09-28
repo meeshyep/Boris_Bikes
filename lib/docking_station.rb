@@ -1,3 +1,6 @@
+require_relative 'bike'
 class DockingStation
-  test?
+  def release_bike
+    Bike.new
+  end
 end
